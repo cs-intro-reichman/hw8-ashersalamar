@@ -117,8 +117,8 @@ public class Network {
        StringBuilder sb = new StringBuilder();
        sb.append("Network:");
        for (int i = 0; i < userCount; i++) {
-           sb.append(users[i].toString());
            sb.append("\n");
+           sb.append(users[i].toString());
        }
        return sb.toString();
     }
